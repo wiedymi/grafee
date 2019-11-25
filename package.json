@@ -1,0 +1,27 @@
+{
+  "name": "@grafee/core",
+  "version": "1.0.6",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wiedymi/grafee.git"
+  },
+  "author": "wiedymi",
+  "license": "MIT",
+  "dependencies": {
+    "@graphql-modules/core": "latest",
+    "apollo-server-express": "latest",
+    "esm": "latest",
+    "express": "latest",
+    "graphql": "^14.5.8",
+    "graphql-directive": "latest",
+    "graphql-middleware": "latest",
+    "graphql-shield": "latest",
+    "graphql-validation": "latest",
+    "module-alias": "latest"
+  }
+}
