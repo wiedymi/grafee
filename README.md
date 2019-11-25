@@ -26,7 +26,7 @@ To enable ES6 features, alies and import .graphql files
 
 index.js
 
-```
+```js
 const { setup } = require('@grafee/core')
 
 setup('/application.js')
@@ -36,7 +36,7 @@ setup('/application.js', true) // Run application in cluster mode
 
 application.js
 
-```
+```js
 import { ApolloServer } from '@grafee/core'
 import rootModule from '@/modules'
 
@@ -68,7 +68,7 @@ console.log(`🚀  Subscriptions: ws://localhost:${port + application.subscripti
 
 To create a module. [Full API](https://www.npmjs.com/package/@graphql-modules/core)
 
-```
+```js
 import { createModule } from '@grafee/core'
 import { userService } from '@/services' // @grafee/mongo
 import * as typeDefs from './schema.graphql'
@@ -85,7 +85,7 @@ export default createModule({
 
 ### ApolloServer
 
-```
+```js
 import { ApolloServer } from '@grafee/core'
 import { setup } from '@grafee/mongo'
 import { auth } from '@/passport'
